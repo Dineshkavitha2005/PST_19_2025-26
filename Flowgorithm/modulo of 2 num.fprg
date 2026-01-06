@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="modulo of 2 num"/>
+        <attribute name="authors" value="Dinesh A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:10:51 AM"/>
+        <attribute name="created" value="RGluZXNoIEE7RElORVNIOzIwMjYtMDEtMDY7MTA6MDg6MjQgQU07MjQwNA=="/>
+        <attribute name="edited" value="RGluZXNoIEE7RElORVNIOzIwMjYtMDEtMDY7MTA6MTA6NTEgQU07MTsyNTA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="20"/>
+            <output expression="a%b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

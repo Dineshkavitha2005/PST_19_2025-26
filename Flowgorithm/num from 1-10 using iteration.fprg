@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="num from 1-10 using iteration"/>
+        <attribute name="authors" value="Dinesh A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 09:23:37 PM"/>
+        <attribute name="created" value="RGluZXNoIEE7RElORVNIOzIwMjYtMDEtMDY7MDk6MTM6MDEgUE07MjQxOA=="/>
+        <attribute name="edited" value="RGluZXNoIEE7RElORVNIOzIwMjYtMDEtMDY7MDk6MjM6MzcgUE07MTsyNTM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <while expression="a&lt;=10">
+                <output expression="a" newline="True"/>
+                <assign variable="a" expression="a+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
