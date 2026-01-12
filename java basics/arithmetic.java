@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int num1,num2,num3,num4,num5,num6,num7;
+	    num1=10;
+	    num2=20;
+	    num3=num1+num2;
+	    num4=num1-num2;
+	    num5=num1*num2;
+	    num6=num1/num2;
+	    num7=num1%num2;
+		System.out.println(num3);
+		System.out.println(num4);
+		System.out.println(num5);
+		System.out.println(num6);
+		System.out.println(num7);
+	}
+}
